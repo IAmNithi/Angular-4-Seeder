@@ -1,0 +1,17 @@
+/**
+ * Global Application Styles
+ */
+
+@import "constants";
+
+html {
+	position: relative;
+	min-height: 100%;
+  }
+  body {
+	/* Margin bottom by footer height */
+	margin-bottom: 60px;
+  }
+  body > .container {
+	padding: 60px 15px 0;
+  }
